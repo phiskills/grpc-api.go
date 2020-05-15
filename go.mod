@@ -2,4 +2,7 @@ module github.com/phiskills/grpc-api.go
 
 go 1.14
 
-require google.golang.org/grpc v1.28.0
+require (
+	github.com/golang/protobuf v1.3.3
+	google.golang.org/grpc v1.28.0
+)

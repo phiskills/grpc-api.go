@@ -1,7 +1,7 @@
 # Phi Skills Generic gRPC API Server for Go
 
 | **Homepage** | [https://phiskills.com][0]        |
-| ------------ | -------------------------------- | 
+| ------------ | --------------------------------- | 
 | **GitHub**   | [https://github.com/phiskills][1] |
 
 ## Overview
@@ -20,8 +20,8 @@ go get github.com/phiskills/grpc-api.go
 package main
 import "github.com/phiskills/grpc-api.go"
 
-api := grpc.New()
-// Register your gRPC server with api.Server
+api := grpc.New('My API')
+xxx.RegisterXxxServer(api.Server(), &xxxServer{})
 api.Start()
 ```
 For more details, see [gRPC Basics - Go: Creating the server][10].
